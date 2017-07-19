@@ -1,0 +1,123 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+/* heading color*/
+#logo {
+  padding-bottom:20px;
+}
+
+head {
+  background-color: orange;
+}
+header {
+  background-color: #FF7F37;
+  padding:50px;
+}
+
+/* nav border /box  */
+nav a {
+  font-family:Helvetica, Arial, sans-serif;
+  background-color: #FF7F37;
+  color:white;
+  border: 1px solid white;
+  border-width: 1px;
+  padding:10px;
+  text-decoration: none;
+  margin:5px;
+}
+/*list space*/
+ul li {
+  margin:5px;
+}
+
+#bio {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+/* img adjust */
+img {
+    max-width: 70%;
+    height: auto;
+    margin: 15px;
+
+}
+/* headline color*/
+
+h2,h3 {
+  color:lightblue;
+}
+
+hr {
+  color:grey;
+}
+
+/* table color and border */
+table,th,td{
+ border: 1px SOLID #1DA5E8;
+ border-collapse: collapse;
+}
+
+thead {
+  background-color: #1DA5E8;
+}
+
+/* form background color */
+
+form {
+  background-color:#eee;
+  padding:20px;
+  border-radius: 15px;
+}
+.name {
+  background-color:pink;
+  padding:20px;
+  border-radius: 15px;
+}
+
+#first, #last {
+  color:white;
+  font-size: 20px;
+}
+
+.name input {
+  height: 25px;
+}
+
+.city_container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* submit background color */
+
+/*submit buttom color */
+input[type=text] {
+  color:white;
+  font-size: 25px;
+}
+input[type=submit] {
+  background-color: #046c97;
+  color:white;
+  font-size: 18px;
+  padding:10px;
+  border-radius: 15px;
+
+}
+textarea{
+ background-color: white;
+}
+
+
+}
